@@ -9,4 +9,4 @@ router.get('/', (req, res) => {
     res.send("<h1>Welcome to exams router</h1>");
 });
 
-module.exports = router;
+export default router;
