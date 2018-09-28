@@ -1,4 +1,5 @@
-# test-series-backend
+# Test Series Backed.
+This repository contains the backend code for Test Series project. You should have node, npm, postgres installed in your computer in order to run this project.
 
 ## Setting up
 1. Clone the repository.
