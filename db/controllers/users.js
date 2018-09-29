@@ -2,7 +2,6 @@ import db from "../models";
 
 export default {
     create(req, res) {
-        console.log(req.body);
         return db.Users.create({
             userName: req.body.userName,
             passwordHash: req.body.password,

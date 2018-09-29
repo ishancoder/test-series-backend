@@ -1,5 +1,5 @@
 import express from "express";
-import {UserController} from "../server/controllers/index";
+import {UserController} from "../db/controllers/index";
 var router = express.Router();
 
 /* GET users listing. */
